@@ -1,0 +1,42 @@
+<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <owl:DatatypeProperty rdf:about="http://www.fuzzy.org#truth"/>
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#type"/>
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#onProperty"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#596343df9251410b860f177c">
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">596343df9251410b860f177c</tmdb:id>
+    <tmdb:author xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gimly</tmdb:author>
+    <tmdb:content xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">There's now officially (not at all officially, more like just-my-opinion-ally) twice as many good Spider-Man movies as there is bad ones. But _Homecoming_ is my favourite of the bunch. 2017 has been a great year for the Superhero genre, and _Spider-Man: Homecoming_ does nothing to buck that trend. It's got everything a Spider-Man movie should have: Heart, humour, action, spectacle, a grounded school life, coming-of-age themes, and all this while firmly rooting itself in the Marvel Cinematic Universe -- without relying on the framework of the past to hold it up. _Spider-Man: Homecoming_ is spectacular, and it stands up both on its own, and as a part of the larger universe.&#xD;
+&#xD;
+_Final rating:★★★½ - I really liked it. Would strongly recommend you give it your time._</tmdb:content>
+    <tmdb:url xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.themoviedb.org/review/596343df9251410b860f177c</tmdb:url>
+    <rdf:type rdf:resource="http://www.tmdb.org#review"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#author"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#content"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#url"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#315635">
+    <tmdb:reviews xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#596343df9251410b860f177c"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#reviews"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#596343df9251410b860f177c">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#596343df9251410b860f177copinionnegative"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#596343df9251410b860f177copinionneutral"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#596343df9251410b860f177copinionpositive"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#596343df9251410b860f177copinionnegative">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#opinion"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#negative"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#596343df9251410b860f177copinionneutral">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#opinion"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#neutral"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#596343df9251410b860f177copinionpositive">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#opinion"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#positive"/>
+  </owl:Thing>
+</rdf:RDF>

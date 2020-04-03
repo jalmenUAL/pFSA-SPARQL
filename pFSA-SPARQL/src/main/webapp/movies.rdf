@@ -1,0 +1,845 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.movies.org#" 
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" 
+xmlns:www="http://www.movies.org#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" 
+xmlns:movie="http://www.movies.org" xmlns:f="http://www.fuzzy.org#" xml:base="http://www.movies.org">
+  <owl:Ontology rdf:about="http://www.movies.org"/>
+  <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+  <!-- http://www.fuzzy.org#item -->
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#item">
+    <rdfs:domain rdf:resource="http://www.movies.org#Fuzzy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:ObjectProperty>
+  <!-- http://www.fuzzy.org#type -->
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#type">
+    <rdfs:range rdf:resource="http://www.movies.org#Fuzzy"/>
+    <rdfs:domain rdf:resource="http://www.movies.org#Movie"/>
+  </owl:ObjectProperty>
+  <!-- http://www.movies.org#actor -->
+  <owl:ObjectProperty rdf:about="http://www.movies.org#actor">
+    <rdfs:range rdf:resource="http://www.movies.org#Cast_Member"/>
+    <rdfs:domain rdf:resource="http://www.movies.org#Movie"/>
+  </owl:ObjectProperty>
+  <!-- http://www.movies.org#directed_by -->
+  <owl:ObjectProperty rdf:about="http://www.movies.org#directed_by">
+    <rdfs:range rdf:resource="http://www.movies.org#Director"/>
+    <rdfs:domain rdf:resource="http://www.movies.org#Movie"/>
+  </owl:ObjectProperty>
+  <!-- http://www.movies.org#leading_role -->
+  <owl:ObjectProperty rdf:about="http://www.movies.org#leading_role">
+    <rdfs:range rdf:resource="http://www.movies.org#Fuzzy"/>
+    <rdfs:domain rdf:resource="http://www.movies.org#Movie"/>
+  </owl:ObjectProperty>
+  <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+  <!-- http://www.fuzzy.org#truth -->
+  <owl:DatatypeProperty rdf:about="http://www.fuzzy.org#truth">
+    <rdfs:domain rdf:resource="http://www.movies.org#Fuzzy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </owl:DatatypeProperty>
+  <!-- http://www.movies.org#date -->
+  <owl:DatatypeProperty rdf:about="http://www.movies.org#date">
+    <rdfs:domain rdf:resource="http://www.movies.org#Movie"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </owl:DatatypeProperty>
+  <!-- http://www.movies.org#duration -->
+  <owl:DatatypeProperty rdf:about="http://www.movies.org#duration">
+    <rdfs:domain rdf:resource="http://www.movies.org#Movie"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+  <!-- http://www.movies.org#name -->
+  <owl:DatatypeProperty rdf:about="http://www.movies.org#name">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:DatatypeProperty>
+  <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+  <!-- http://www.movies.org#Actor -->
+  <owl:Class rdf:about="http://www.movies.org#Actor">
+    <rdfs:subClassOf rdf:resource="http://www.movies.org#Cast_Member"/>
+  </owl:Class>
+  <!-- http://www.movies.org#Actress -->
+  <owl:Class rdf:about="http://www.movies.org#Actress">
+    <rdfs:subClassOf rdf:resource="http://www.movies.org#Cast_Member"/>
+  </owl:Class>
+  <!-- http://www.movies.org#Average -->
+  <owl:Class rdf:about="http://www.movies.org#Average">
+    <rdfs:subClassOf rdf:resource="http://www.movies.org#Score"/>
+  </owl:Class>
+  <!-- http://www.movies.org#Cast_Member -->
+  <owl:Class rdf:about="http://www.movies.org#Cast_Member"/>
+  <!-- http://www.movies.org#Comedy -->
+  <owl:Class rdf:about="http://www.movies.org#Comedy">
+    <rdfs:subClassOf rdf:resource="http://www.movies.org#Movie"/>
+  </owl:Class>
+  <!-- http://www.movies.org#Director -->
+  <owl:Class rdf:about="http://www.movies.org#Director">
+    <rdfs:subClassOf rdf:resource="http://www.movies.org#Movie_Team"/>
+  </owl:Class>
+  <!-- http://www.movies.org#Documentary -->
+  <owl:Class rdf:about="http://www.movies.org#Documentary">
+    <rdfs:subClassOf rdf:resource="http://www.movies.org#Movie"/>
+  </owl:Class>
+  <!-- http://www.movies.org#Drama -->
+  <owl:Class rdf:about="http://www.movies.org#Drama">
+    <rdfs:subClassOf rdf:resource="http://www.movies.org#Movie"/>
+  </owl:Class>
+  <!-- http://www.movies.org#Excellent -->
+  <owl:Class rdf:about="http://www.movies.org#Excellent">
+    <rdfs:subClassOf rdf:resource="http://www.movies.org#Score"/>
+  </owl:Class>
+  <!-- http://www.movies.org#Fuzzy -->
+  <owl:Class rdf:about="http://www.movies.org#Fuzzy"/>
+  <!-- http://www.movies.org#Good -->
+  <owl:Class rdf:about="http://www.movies.org#Good">
+    <rdfs:subClassOf rdf:resource="http://www.movies.org#Score"/>
+  </owl:Class>
+  <!-- http://www.movies.org#Low -->
+  <owl:Class rdf:about="http://www.movies.org#Low">
+    <rdfs:subClassOf rdf:resource="http://www.movies.org#Score"/>
+  </owl:Class>
+  <!-- http://www.movies.org#Movie -->
+  <owl:Class rdf:about="http://www.movies.org#Movie"/>
+  <!-- http://www.movies.org#Movie_Team -->
+  <owl:Class rdf:about="http://www.movies.org#Movie_Team"/>
+  <!-- http://www.movies.org#Score -->
+  <owl:Class rdf:about="http://www.movies.org#Score"/>
+  <!-- http://www.movies.org#Thriller -->
+  <owl:Class rdf:about="http://www.movies.org#Thriller">
+    <rdfs:subClassOf rdf:resource="http://www.movies.org#Movie"/>
+  </owl:Class>
+  <!-- http://www.movies.org#Writer -->
+  <owl:Class rdf:about="http://www.movies.org#Writer">
+    <rdfs:subClassOf rdf:resource="http://www.movies.org#Movie_Team"/>
+  </owl:Class>
+  <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+  <!-- http://www.movies.org#Anthony_Hopkins -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Anthony_Hopkins">
+    <rdf:type rdf:resource="http://www.movies.org#Actor"/>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthony Hopkins</name>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Brad_Pitt -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Brad_Pitt">
+    <rdf:type rdf:resource="http://www.movies.org#Actor"/>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brad Pitt</name>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Casablanca -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Casablanca">
+    <rdf:type rdf:resource="http://www.movies.org#Movie"/>
+    <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</duration>
+    <date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1942</date>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Casablanca</name>
+    <actor rdf:resource="http://www.movies.org#Humphrey_Bogart"/>
+    <actor rdf:resource="http://www.movies.org#Ingrid_Bergman"/>
+    <f:type rdf:resource="http://www.movies.org#casablanca_average"/>
+    <f:type rdf:resource="http://www.movies.org#casablanca_comedy"/>
+    <f:type rdf:resource="http://www.movies.org#casablanca_documentary"/>
+    <f:type rdf:resource="http://www.movies.org#casablanca_drama"/>
+    <f:type rdf:resource="http://www.movies.org#casablanca_excellent"/>
+    <f:type rdf:resource="http://www.movies.org#casablanca_good"/>
+    <leading_role rdf:resource="http://www.movies.org#casablanca_leading1"/>
+    <leading_role rdf:resource="http://www.movies.org#casablanca_leading2"/>
+    <f:type rdf:resource="http://www.movies.org#casablanca_low"/>
+    <f:type rdf:resource="http://www.movies.org#casablanca_thriller"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#George_Clooney -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#George_Clooney">
+    <rdf:type rdf:resource="http://www.movies.org#Actor"/>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George Clooney</name>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Hannah_and_her_sisters -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Hannah_and_her_sisters">
+    <rdf:type rdf:resource="http://www.movies.org#Movie"/>
+    <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</duration>
+    <date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1986</date>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hannah and her sisters</name>
+    <actor rdf:resource="http://www.movies.org#Mia_Farrow"/>
+    <actor rdf:resource="http://www.movies.org#Michael_Caine"/>
+    <directed_by rdf:resource="http://www.movies.org#Woody_Allen"/>
+    <f:type rdf:resource="http://www.movies.org#hannah_average"/>
+    <f:type rdf:resource="http://www.movies.org#hannah_comedy"/>
+    <f:type rdf:resource="http://www.movies.org#hannah_documentary"/>
+    <f:type rdf:resource="http://www.movies.org#hannah_drama"/>
+    <f:type rdf:resource="http://www.movies.org#hannah_excellent"/>
+    <f:type rdf:resource="http://www.movies.org#hannah_good"/>
+    <leading_role rdf:resource="http://www.movies.org#hannah_leading1"/>
+    <leading_role rdf:resource="http://www.movies.org#hannah_leading2"/>
+    <f:type rdf:resource="http://www.movies.org#hannah_low"/>
+    <f:type rdf:resource="http://www.movies.org#hannah_thriller"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Humphrey_Bogart -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Humphrey_Bogart">
+    <rdf:type rdf:resource="http://www.movies.org#Actor"/>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humphrey Bogart</name>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Ingrid_Bergman -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Ingrid_Bergman">
+    <rdf:type rdf:resource="http://www.movies.org#Actress"/>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingrid Bergman</name>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Jodie_Foster -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Jodie_Foster">
+    <rdf:type rdf:resource="http://www.movies.org#Actress"/>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jodie Foster</name>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Manhattan -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Manhattan">
+    <rdf:type rdf:resource="http://www.movies.org#Movie"/>
+    <date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1979</date>
+    <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</duration>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manhattan</name>
+    <directed_by rdf:resource="http://www.movies.org#Woody_Allen"/>
+    <actor rdf:resource="http://www.movies.org#Woody_Allen"/>
+    <f:type rdf:resource="http://www.movies.org#hannah_documentary"/>
+    <f:type rdf:resource="http://www.movies.org#hannah_drama"/>
+    <f:type rdf:resource="http://www.movies.org#manhattan_average"/>
+    <f:type rdf:resource="http://www.movies.org#manhattan_comedy"/>
+    <f:type rdf:resource="http://www.movies.org#manhattan_excellent"/>
+    <f:type rdf:resource="http://www.movies.org#manhattan_good"/>
+    <leading_role rdf:resource="http://www.movies.org#manhattan_leading"/>
+    <f:type rdf:resource="http://www.movies.org#manhattan_low"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Match_Point -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Match_Point">
+    <rdf:type rdf:resource="http://www.movies.org#Movie"/>
+    <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</duration>
+    <date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</date>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Match Point</name>
+    <actor rdf:resource="http://www.movies.org#Scarlett_Johansson"/>
+    <directed_by rdf:resource="http://www.movies.org#Woody_Allen"/>
+    <f:type rdf:resource="http://www.movies.org#match_average"/>
+    <f:type rdf:resource="http://www.movies.org#match_comedy"/>
+    <f:type rdf:resource="http://www.movies.org#match_documentary"/>
+    <f:type rdf:resource="http://www.movies.org#match_drama"/>
+    <f:type rdf:resource="http://www.movies.org#match_excellent"/>
+    <f:type rdf:resource="http://www.movies.org#match_good"/>
+    <leading_role rdf:resource="http://www.movies.org#match_leading"/>
+    <f:type rdf:resource="http://www.movies.org#match_low"/>
+    <f:type rdf:resource="http://www.movies.org#match_thriller"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Mia_Farrow -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Mia_Farrow">
+    <rdf:type rdf:resource="http://www.movies.org#Actress"/>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mia Farrow</name>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Michael_Caine -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Michael_Caine">
+    <rdf:type rdf:resource="http://www.movies.org#Actor"/>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michael Caine</name>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Michael_Moore -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Michael_Moore">
+    <rdf:type rdf:resource="http://www.movies.org#Director"/>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michael Moore</name>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Oceans_eleven -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Oceans_eleven">
+    <rdf:type rdf:resource="http://www.movies.org#Movie"/>
+    <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</duration>
+    <date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</date>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ocean's Eleven</name>
+    <f:type rdf:resource="http://www.movies.org#ocean_average"/>
+    <f:type rdf:resource="http://www.movies.org#ocean_comedy"/>
+    <f:type rdf:resource="http://www.movies.org#ocean_documentary"/>
+    <f:type rdf:resource="http://www.movies.org#ocean_drama"/>
+    <f:type rdf:resource="http://www.movies.org#ocean_excellent"/>
+    <f:type rdf:resource="http://www.movies.org#ocean_good"/>
+    <leading_role rdf:resource="http://www.movies.org#ocean_leading1"/>
+    <leading_role rdf:resource="http://www.movies.org#ocean_leading2"/>
+    <f:type rdf:resource="http://www.movies.org#ocean_low"/>
+    <f:type rdf:resource="http://www.movies.org#ocean_thriller"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Scarlett_Johansson -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Scarlett_Johansson">
+    <rdf:type rdf:resource="http://www.movies.org#Actress"/>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scarlett Johansson</name>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Sicko -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Sicko">
+    <rdf:type rdf:resource="http://www.movies.org#Movie"/>
+    <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</duration>
+    <date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</date>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sicko</name>
+    <directed_by rdf:resource="http://www.movies.org#Michael_Moore"/>
+    <f:type rdf:resource="http://www.movies.org#sicko_average"/>
+    <f:type rdf:resource="http://www.movies.org#sicko_comedy"/>
+    <f:type rdf:resource="http://www.movies.org#sicko_documentary"/>
+    <f:type rdf:resource="http://www.movies.org#sicko_drama"/>
+    <f:type rdf:resource="http://www.movies.org#sicko_excellent"/>
+    <f:type rdf:resource="http://www.movies.org#sicko_good"/>
+    <f:type rdf:resource="http://www.movies.org#sicko_low"/>
+    <f:type rdf:resource="http://www.movies.org#sicko_thriller"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#The_American -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#The_American">
+    <rdf:type rdf:resource="http://www.movies.org#Movie"/>
+    <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</duration>
+    <date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</date>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The American</name>
+    <actor rdf:resource="http://www.movies.org#George_Clooney"/>
+    <f:type rdf:resource="http://www.movies.org#american_average"/>
+    <f:type rdf:resource="http://www.movies.org#american_comedy"/>
+    <f:type rdf:resource="http://www.movies.org#american_documentary"/>
+    <f:type rdf:resource="http://www.movies.org#american_drama"/>
+    <f:type rdf:resource="http://www.movies.org#american_excellent"/>
+    <f:type rdf:resource="http://www.movies.org#american_good"/>
+    <leading_role rdf:resource="http://www.movies.org#american_leading"/>
+    <f:type rdf:resource="http://www.movies.org#american_low"/>
+    <f:type rdf:resource="http://www.movies.org#american_thriller"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#The_descendants -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#The_descendants">
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Descendants</name>
+    <actor rdf:resource="http://www.movies.org#George_Clooney"/>
+    <f:type rdf:resource="http://www.movies.org#descendants_average"/>
+    <f:type rdf:resource="http://www.movies.org#descendants_comedy"/>
+    <f:type rdf:resource="http://www.movies.org#descendants_documentary"/>
+    <f:type rdf:resource="http://www.movies.org#descendants_drama"/>
+    <f:type rdf:resource="http://www.movies.org#descendants_excellent"/>
+    <f:type rdf:resource="http://www.movies.org#descendants_good"/>
+    <leading_role rdf:resource="http://www.movies.org#descendants_leading"/>
+    <f:type rdf:resource="http://www.movies.org#descendants_low"/>
+    <f:type rdf:resource="http://www.movies.org#descendants_thriller"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#The_silence_of_the_lambs -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#The_silence_of_the_lambs">
+    <rdf:type rdf:resource="http://www.movies.org#Movie"/>
+    <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</duration>
+    <date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</date>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Silence of the Lambs</name>
+    <actor rdf:resource="http://www.movies.org#Anthony_Hopkins"/>
+    <actor rdf:resource="http://www.movies.org#Jodie_Foster"/>
+    <f:type rdf:resource="http://www.movies.org#silence_average"/>
+    <f:type rdf:resource="http://www.movies.org#silence_comedy"/>
+    <f:type rdf:resource="http://www.movies.org#silence_documentary"/>
+    <f:type rdf:resource="http://www.movies.org#silence_drama"/>
+    <f:type rdf:resource="http://www.movies.org#silence_excellent"/>
+    <f:type rdf:resource="http://www.movies.org#silence_good"/>
+    <leading_role rdf:resource="http://www.movies.org#silence_leading1"/>
+    <leading_role rdf:resource="http://www.movies.org#silence_leading2"/>
+    <f:type rdf:resource="http://www.movies.org#silence_low"/>
+    <f:type rdf:resource="http://www.movies.org#silence_thriller"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#Woody_Allen -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#Woody_Allen">
+    <rdf:type rdf:resource="http://www.movies.org#Actor"/>
+    <rdf:type rdf:resource="http://www.movies.org#Director"/>
+    <rdf:type rdf:resource="http://www.movies.org#Writer"/>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Woody Allen</name>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#american_average -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#american_average">
+    <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Average"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#american_comedy -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#american_comedy">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Comedy"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#american_documentary -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#american_documentary">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Documentary"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#american_drama -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#american_drama">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Drama"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#american_excellent -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#american_excellent">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Excellent"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#american_good -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#american_good">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Good"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#american_leading -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#american_leading">
+    <rdf:type rdf:resource="http://www.movies.org#Fuzzy"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</f:truth>
+    <f:item rdf:resource="http://www.movies.org#George_Clooney"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#american_low -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#american_low">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Low"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#american_thriller -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#american_thriller">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Thriller"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#casablanca_average -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#casablanca_average">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Average"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#casablanca_comedy -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#casablanca_comedy">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Comedy"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#casablanca_documentary -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#casablanca_documentary">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Documentary"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#casablanca_drama -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#casablanca_drama">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Drama"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#casablanca_excellent -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#casablanca_excellent">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Excellent"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#casablanca_good -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#casablanca_good">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Good"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#casablanca_leading1 -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#casablanca_leading1">
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+    <f:item rdf:resource="http://www.movies.org#Humphrey_Bogart"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#casablanca_leading2 -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#casablanca_leading2">
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+    <f:item rdf:resource="http://www.movies.org#Ingrid_Bergman"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#casablanca_low -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#casablanca_low">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Low"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#casablanca_thriller -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#casablanca_thriller">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Thriller"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#descendants_average -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#descendants_average">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Average"/>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</name>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#descendants_comedy -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#descendants_comedy">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Comedy"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#descendants_documentary -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#descendants_documentary">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Documentary"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#descendants_drama -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#descendants_drama">
+    <rdf:type rdf:resource="http://www.movies.org#Drama"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#descendants_excellent -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#descendants_excellent">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Excellent"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#descendants_good -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#descendants_good">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Good"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#descendants_leading -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#descendants_leading">
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</f:truth>
+    <f:item rdf:resource="http://www.movies.org#George_Clooney"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#descendants_low -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#descendants_low">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Low"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#descendants_thriller -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#descendants_thriller">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Thriller"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#hannah_average -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#hannah_average">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Average"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#hannah_comedy -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#hannah_comedy">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Comedy"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#hannah_documentary -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#hannah_documentary">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Documentary"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#hannah_drama -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#hannah_drama">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Drama"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#hannah_excellent -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#hannah_excellent">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Excellent"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#hannah_good -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#hannah_good">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Good"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#hannah_leading1 -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#hannah_leading1">
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</f:truth>
+    <f:item rdf:resource="http://www.movies.org#Michael_Caine"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#hannah_leading2 -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#hannah_leading2">
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+    <f:item rdf:resource="http://www.movies.org#Mia_Farrow"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#hannah_low -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#hannah_low">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Low"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#hannah_thriller -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#hannah_thriller">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Thriller"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#manhattan_average -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#manhattan_average">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Average"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#manhattan_comedy -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#manhattan_comedy">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Comedy"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#manhattan_documentary -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#manhattan_documentary">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Documentary"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#manhattan_drama -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#manhattan_drama">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Drama"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#manhattan_excellent -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#manhattan_excellent">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Excellent"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#manhattan_good -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#manhattan_good">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Good"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#manhattan_leading -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#manhattan_leading">
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+    <f:item rdf:resource="http://www.movies.org#Woody_Allen"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#manhattan_low -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#manhattan_low">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Low"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#manhattan_thriller -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#manhattan_thriller">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Thriller"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#match_average -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#match_average">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Average"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#match_comedy -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#match_comedy">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Comedy"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#match_documentary -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#match_documentary">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Documentary"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#match_drama -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#match_drama">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Drama"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#match_excellent -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#match_excellent">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Excellent"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#match_good -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#match_good">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Good"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#match_leading -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#match_leading">
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+    <f:item rdf:resource="http://www.movies.org#Scarlett_Johansson"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#match_low -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#match_low">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Low"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#match_thriller -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#match_thriller">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Thriller"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#ocean_average -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#ocean_average">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Average"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#ocean_comedy -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#ocean_comedy">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Comedy"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#ocean_documentary -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#ocean_documentary">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Documentary"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#ocean_drama -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#ocean_drama">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Drama"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#ocean_excellent -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#ocean_excellent">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Excellent"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#ocean_good -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#ocean_good">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Good"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#ocean_leading1 -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#ocean_leading1">
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+    <f:item rdf:resource="http://www.movies.org#George_Clooney"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#ocean_leading2 -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#ocean_leading2">
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+    <f:item rdf:resource="http://www.movies.org#Brad_Pitt"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#ocean_low -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#ocean_low">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Low"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#ocean_thriller -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#ocean_thriller">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Thriller"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#sicko_average -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#sicko_average">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Average"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#sicko_comedy -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#sicko_comedy">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Comedy"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#sicko_documentary -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#sicko_documentary">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Documentary"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#sicko_drama -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#sicko_drama">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Drama"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#sicko_excellent -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#sicko_excellent">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Excellent"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#sicko_good -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#sicko_good">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Good"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#sicko_low -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#sicko_low">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Low"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#sicko_thriller -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#sicko_thriller">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Thriller"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#silence_average -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#silence_average">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Average"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#silence_comedy -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#silence_comedy">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Comedy"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#silence_documentary -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#silence_documentary">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Documentary"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#silence_drama -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#silence_drama">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Drama"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#silence_excellent -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#silence_excellent">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Excellent"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#silence_good -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#silence_good">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Good"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#silence_leading1 -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#silence_leading1">
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+    <f:item rdf:resource="http://www.movies.org#Anthony_Hopkins"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#silence_leading2 -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#silence_leading2">
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</f:truth>
+    <f:item rdf:resource="http://www.movies.org#Jodie_Foster"/>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#silence_low -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#silence_low">
+  <f:onProperty rdf:resource="http://www.movies.org#quality"/>
+    <rdf:type rdf:resource="http://www.movies.org#Low"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.movies.org#silence_thriller -->
+  <owl:NamedIndividual rdf:about="http://www.movies.org#silence_thriller">
+  <f:onProperty rdf:resource="http://www.movies.org#genre"/>
+    <rdf:type rdf:resource="http://www.movies.org#Thriller"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</f:truth>
+  </owl:NamedIndividual>
+ 
+</rdf:RDF>
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->

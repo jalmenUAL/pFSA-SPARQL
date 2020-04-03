@@ -1,0 +1,73 @@
+<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <owl:DatatypeProperty rdf:about="http://www.fuzzy.org#truth"/>
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#type"/>
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#onProperty"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#5472">
+    <tmdb:birthday xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1960-09-10</tmdb:birthday>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5472</tmdb:id>
+    <tmdb:name xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colin Firth</tmdb:name>
+    <tmdb:also__known__as xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#5472also__known__as"/>
+    <tmdb:gender xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</tmdb:gender>
+    <tmdb:biography xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">​From Wikipedia, the free encyclopedia.  
+
+Colin Andrew Firth (born 10 September 1960) is an English film, television, and stage actor. Firth gained wide public attention in the 1990s for his portrayal of Mr. Darcy in the 1995 television adaptation of Jane Austen's Pride and Prejudice. In 2011, Firth received the Academy Award for Best Actor for his portrayal of King George VI in The King's Speech, a performance that also earned him the Golden Globe, BAFTA, and Screen Actors Guild Award for Best Actor. The previous year he received his first Academy Award nomination for his leading role in A Single Man, a performance that won him a BAFTA Award. Firth's other major film credits include The English Patient, Shakespeare in Love, Bridget Jones's Diary, Mamma Mia! and Love Actually. He received a star on the Hollywood Walk of Fame in 2011.
+
+Description above from the Wikipedia article Colin Firth, licensed under CC-BY-SA, full list of contributors on Wikipedia.</tmdb:biography>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.727441</tmdb:popularity>
+    <tmdb:place__of__birth xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grayshott, Hampshire, England, UK</tmdb:place__of__birth>
+    <tmdb:profile__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/lKUq407IhFF6CQoJbUgbEyfS9JA.jpg</tmdb:profile__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:imdb__id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nm0000147</tmdb:imdb__id>
+    <tmdb:homepage xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.colinfirth24-7.com/</tmdb:homepage>
+    <rdf:type rdf:resource="http://www.tmdb.org#person"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#5472also__known__as">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colin Andrew Firth</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Колин Ферт</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">콜린 퍼스</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">コリン・ファース</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">كولين فيرث</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">โคลิน เฟิร์ธ</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">哥連·費夫</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#birthday"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#name"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#also__known__as"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#gender"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#biography"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#place__of__birth"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#profile__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#imdb__id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#homepage"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#5472">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#5472popularitylow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#5472popularitymedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#5472popularityhigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#5472popularitylow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#popularity"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#5472popularitymedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#popularity"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#5472popularityhigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9090236</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#popularity"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+</rdf:RDF>

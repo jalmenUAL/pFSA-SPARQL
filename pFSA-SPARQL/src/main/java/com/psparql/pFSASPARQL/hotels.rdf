@@ -1,0 +1,351 @@
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.movies.org#" 
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" 
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#" 
+ xmlns:f="http://www.fuzzy.org#" xmlns:hotel="http://www.hotels.org#" xml:base="http://www.movies.org">
+  <owl:Ontology rdf:about="http://www.hotels.org"/>
+  <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+  <!-- http://www.fuzzy.org#item -->
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#item">
+    <rdfs:domain rdf:resource="http://www.hotels.org#Fuzzy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:ObjectProperty>
+  <!-- http://www.fuzzy.org#type -->
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#type">
+    <rdfs:range rdf:resource="http://www.hotels.org#Fuzzy"/>
+  </owl:ObjectProperty>
+  <!-- http://www.hotels.org#close -->
+  <owl:ObjectProperty rdf:about="http://www.hotels.org#close">
+    <rdfs:domain rdf:resource="http://www.hotels.org#Fuzzy"/>
+    <rdfs:range rdf:resource="http://www.hotels.org#Point_of_Interest"/>
+  </owl:ObjectProperty>
+  <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+  <!-- http://www.fuzzy.org#truth -->
+  <owl:DatatypeProperty rdf:about="http://www.fuzzy.org#truth">
+    <rdfs:domain rdf:resource="http://www.hotels.org#Fuzzy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </owl:DatatypeProperty>
+  <!-- http://www.hotels.org#name -->
+  <owl:DatatypeProperty rdf:about="http://www.hotels.org#name">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:DatatypeProperty>
+  <!-- http://www.hotels.org#price -->
+  <owl:DatatypeProperty rdf:about="http://www.hotels.org#price"/>
+  <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+  <!-- http://www.hotels.org#Average -->
+  <owl:Class rdf:about="http://www.hotels.org#Average">
+    <rdfs:subClassOf rdf:resource="http://www.hotels.org#Score"/>
+  </owl:Class>
+  <!-- http://www.hotels.org#Elegant -->
+  <owl:Class rdf:about="http://www.hotels.org#Elegant">
+    <rdfs:subClassOf rdf:resource="http://www.hotels.org#Style"/>
+  </owl:Class>
+  <!-- http://www.hotels.org#Excellent -->
+  <owl:Class rdf:about="http://www.hotels.org#Excellent">
+    <rdfs:subClassOf rdf:resource="http://www.hotels.org#Score"/>
+  </owl:Class>
+  <!-- http://www.hotels.org#Fuzzy -->
+  <owl:Class rdf:about="http://www.hotels.org#Fuzzy"/>
+  <!-- http://www.hotels.org#Good -->
+  <owl:Class rdf:about="http://www.hotels.org#Good">
+    <rdfs:subClassOf rdf:resource="http://www.hotels.org#Score"/>
+  </owl:Class>
+  <!-- http://www.hotels.org#Hotel -->
+  <owl:Class rdf:about="http://www.hotels.org#Hotel"/>
+  <!-- http://www.hotels.org#Low -->
+  <owl:Class rdf:about="http://www.hotels.org#Low">
+    <rdfs:subClassOf rdf:resource="http://www.hotels.org#Score"/>
+  </owl:Class>
+  <!-- http://www.hotels.org#Point_of_Interest -->
+  <owl:Class rdf:about="http://www.hotels.org#Point_of_Interest"/>
+  <!-- http://www.hotels.org#Score -->
+  <owl:Class rdf:about="http://www.hotels.org#Score"/>
+  <!-- http://www.hotels.org#Style -->
+  <owl:Class rdf:about="http://www.hotels.org#Style"/>
+  <!-- http://www.hotels.org#Vanguardist -->
+  <owl:Class rdf:about="http://www.hotels.org#Vanguardist">
+    <rdfs:subClassOf rdf:resource="http://www.hotels.org#Style"/>
+  </owl:Class>
+  <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+  <!-- http://www.hotels.org#Accor -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#Accor">
+    <rdf:type rdf:resource="http://www.hotels.org#Hotel"/>
+    <hotel:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hotel:price>
+    <hotel:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accor</hotel:name>
+    <f:type rdf:resource="http://www.hotels.org#accor_average"/>
+    <hotel:close rdf:resource="http://www.hotels.org#accor_close_cp"/>
+    <hotel:close rdf:resource="http://www.hotels.org#accor_close_es"/>
+    <f:type rdf:resource="http://www.hotels.org#accor_elegant"/>
+    <f:type rdf:resource="http://www.hotels.org#accor_excellent"/>
+    <f:type rdf:resource="http://www.hotels.org#accor_good"/>
+    <f:type rdf:resource="http://www.hotels.org#accor_low"/>
+    <f:type rdf:resource="http://www.hotels.org#accor_vanguardist"/>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#Central_Park -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#Central_Park">
+    <rdf:type rdf:resource="http://www.hotels.org#Point_of_Interest"/>
+    <hotel:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central Park</hotel:name>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#Empire_State -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#Empire_State">
+    <rdf:type rdf:resource="http://www.hotels.org#Point_of_Interest"/>
+    <hotel:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Empire State Building</hotel:name>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#Hilton -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#Hilton">
+    <rdf:type rdf:resource="http://www.hotels.org#Hotel"/>
+    <hotel:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</hotel:price>
+    <hotel:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hilton</hotel:name>
+    <f:type rdf:resource="http://www.hotels.org#hilton_average"/>
+    <hotel:close rdf:resource="http://www.hotels.org#hilton_close_cp"/>
+    <hotel:close rdf:resource="http://www.hotels.org#hilton_close_es"/>
+    <f:type rdf:resource="http://www.hotels.org#hilton_elegant"/>
+    <f:type rdf:resource="http://www.hotels.org#hilton_excellent"/>
+    <f:type rdf:resource="http://www.hotels.org#hilton_good"/>
+    <f:type rdf:resource="http://www.hotels.org#hilton_low"/>
+    <f:type rdf:resource="http://www.hotels.org#hilton_vanguardist"/>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#Marriott -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#Marriott">
+    <rdf:type rdf:resource="http://www.hotels.org#Hotel"/>
+    <hotel:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</hotel:price>
+    <hotel:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marriott</hotel:name>
+    <hotel:close rdf:resource="http://www.hotels.org#marriot_close_cp"/>
+    <f:type rdf:resource="http://www.hotels.org#marriott_average"/>
+    <hotel:close rdf:resource="http://www.hotels.org#marriott_close_es"/>
+    <f:type rdf:resource="http://www.hotels.org#marriott_elegant"/>
+    <f:type rdf:resource="http://www.hotels.org#marriott_excellent"/>
+    <f:type rdf:resource="http://www.hotels.org#marriott_good"/>
+    <f:type rdf:resource="http://www.hotels.org#marriott_low"/>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#Ritz -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#Ritz">
+    <rdf:type rdf:resource="http://www.hotels.org#Hotel"/>
+    <hotel:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</hotel:price>
+    <hotel:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ritz</hotel:name>
+    <f:type rdf:resource="http://www.hotels.org#ritz_average"/>
+    <hotel:close rdf:resource="http://www.hotels.org#ritz_close_cp"/>
+    <hotel:close rdf:resource="http://www.hotels.org#ritz_close_es"/>
+    <f:type rdf:resource="http://www.hotels.org#ritz_elegant"/>
+    <f:type rdf:resource="http://www.hotels.org#ritz_excellent"/>
+    <f:type rdf:resource="http://www.hotels.org#ritz_good"/>
+    <f:type rdf:resource="http://www.hotels.org#ritz_low"/>
+    <f:type rdf:resource="http://www.hotels.org#ritz_vanguardist"/>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#accor_average -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#accor_average">
+   <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Average"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#accor_close_cp -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#accor_close_cp">
+  
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</f:truth>
+    <f:item rdf:resource="http://www.hotels.org#Central_Park"/>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#accor_close_es -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#accor_close_es">
+  
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+    <f:item rdf:resource="http://www.hotels.org#Empire_State"/>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#accor_elegant -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#accor_elegant">
+  <f:onProperty rdf:resource="http://www.hotels.org#style"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Elegant"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#accor_excellent -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#accor_excellent">
+  <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Excellent"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#accor_good -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#accor_good">
+  <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Good"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#accor_low -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#accor_low">
+  <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Low"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#accor_vanguardist -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#accor_vanguardist">
+  <f:onProperty rdf:resource="http://www.hotels.org#style"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Vanguardist"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#hilton_average -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#hilton_average">
+  <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Average"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#hilton_close_cp -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#hilton_close_cp">
+  
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</f:truth>
+    <f:item rdf:resource="http://www.hotels.org#Central_Park"/>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#hilton_close_es -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#hilton_close_es">
+  
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</f:truth>
+    <f:item rdf:resource="http://www.hotels.org#Empire_State"/>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#hilton_elegant -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#hilton_elegant">
+  <f:onProperty rdf:resource="http://www.hotels.org#style"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Elegant"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#hilton_excellent -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#hilton_excellent">
+  <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Excellent"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#hilton_good -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#hilton_good">
+  <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Good"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#hilton_low -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#hilton_low">
+  <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Low"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#hilton_vanguardist -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#hilton_vanguardist">
+  <f:onProperty rdf:resource="http://www.hotels.org#style"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Vanguardist"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#marriot_close_cp -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#marriot_close_cp">
+  
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</f:truth>
+    <f:item rdf:resource="http://www.hotels.org#Central_Park"/>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#marriott_average -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#marriott_average">
+  <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Average"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#marriott_close_es -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#marriott_close_es">
+  
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</f:truth>
+    <f:item rdf:resource="http://www.hotels.org#Empire_State"/>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#marriott_elegant -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#marriott_elegant">
+  <f:onProperty rdf:resource="http://www.hotels.org#style"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Elegant"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#marriott_excellent -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#marriott_excellent">
+    <rdf:type rdf:resource="http://www.hotels.org#Excellent"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</f:truth>
+    <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#marriott_good -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#marriott_good">
+  <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Good"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#marriott_low -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#marriott_low">
+    <rdf:type rdf:resource="http://www.hotels.org#Low"/>
+    <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#marriott_vanguardist -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#marriott_vanguardist">
+  <f:onProperty rdf:resource="http://www.hotels.org#style"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Vanguardist"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#ritz_average -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#ritz_average">
+    <rdf:type rdf:resource="http://www.hotels.org#Average"/>
+    <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#ritz_close_cp -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#ritz_close_cp">
+  
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</f:truth>
+    <f:item rdf:resource="http://www.hotels.org#Central_Park"/>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#ritz_close_es -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#ritz_close_es">
+  
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</f:truth>
+    <f:item rdf:resource="http://www.hotels.org#Empire_State"/>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#ritz_elegant -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#ritz_elegant">
+  <f:onProperty rdf:resource="http://www.hotels.org#style"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Elegant"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#ritz_excellent -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#ritz_excellent">
+  <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Excellent"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#ritz_good -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#ritz_good">
+  <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Good"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#ritz_low -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#ritz_low">
+  <f:onProperty rdf:resource="http://www.hotels.org#quality"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Low"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</f:truth>
+  </owl:NamedIndividual>
+  <!-- http://www.hotels.org#ritz_vanguardist -->
+  <owl:NamedIndividual rdf:about="http://www.hotels.org#ritz_vanguardist">
+  <f:onProperty rdf:resource="http://www.hotels.org#style"/>
+    <rdf:type rdf:resource="http://www.hotels.org#Vanguardist"/>
+    <f:truth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</f:truth>
+  </owl:NamedIndividual>
+</rdf:RDF>
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->

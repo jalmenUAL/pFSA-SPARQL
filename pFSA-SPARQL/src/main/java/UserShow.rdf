@@ -1,0 +1,324 @@
+<rdf:RDF xmlns:twt="http://www.twitter.org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <owl:DatatypeProperty rdf:about="http://www.fuzzy.org#truth"/>
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#type"/>
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#onProperty"/>
+  <owl:Class rdf:about="http://www.twitter.org#low"/>
+  <owl:Class rdf:about="http://www.twitter.org#medium"/>
+  <owl:Class rdf:about="http://www.twitter.org#high"/>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605">
+    <twt:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58524605</twt:id>
+    <twt:id__str rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58524605</twt:id__str>
+    <twt:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abbie Bernstein</twt:name>
+    <twt:screen__name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hedgebeast</twt:screen__name>
+    <twt:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Here</twt:location>
+    <twt:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Author of The Art of Mad Max: Fury Road, Journalist and Filmmaker.</twt:description>
+    <twt:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://t.co/ZKRrDZYd7D</twt:url>
+    <twt:entities rdf:resource="http://www.twitter.org#58524605entities"/>
+    <twt:protected rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:protected>
+    <twt:followers__count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">538</twt:followers__count>
+    <twt:friends__count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">244</twt:friends__count>
+    <twt:listed__count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</twt:listed__count>
+    <twt:created__at rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mon Jul 20 16:59:07 +0000 2009</twt:created__at>
+    <twt:favourites__count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15044</twt:favourites__count>
+    <twt:utc__offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-25200</twt:utc__offset>
+    <twt:time__zone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pacific Time (US &amp; Canada)</twt:time__zone>
+    <twt:geo__enabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:geo__enabled>
+    <twt:verified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:verified>
+    <twt:statuses__count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7811</twt:statuses__count>
+    <twt:lang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</twt:lang>
+    <twt:status rdf:resource="http://www.twitter.org#58524605status"/>
+    <twt:contributors__enabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:contributors__enabled>
+    <twt:is__translator rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:is__translator>
+    <twt:is__translation__enabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:is__translation__enabled>
+    <twt:profile__background__color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">000000</twt:profile__background__color>
+    <twt:profile__background__image__url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://abs.twimg.com/images/themes/theme15/bg.png</twt:profile__background__image__url>
+    <twt:profile__background__image__url__https rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://abs.twimg.com/images/themes/theme15/bg.png</twt:profile__background__image__url__https>
+    <twt:profile__background__tile rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:profile__background__tile>
+    <twt:profile__image__url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://pbs.twimg.com/profile_images/605446880072364032/vGptZI9y_normal.jpg</twt:profile__image__url>
+    <twt:profile__image__url__https rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pbs.twimg.com/profile_images/605446880072364032/vGptZI9y_normal.jpg</twt:profile__image__url__https>
+    <twt:profile__banner__url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pbs.twimg.com/profile_banners/58524605/1433184875</twt:profile__banner__url>
+    <twt:profile__link__color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1B95E0</twt:profile__link__color>
+    <twt:profile__sidebar__border__color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">000000</twt:profile__sidebar__border__color>
+    <twt:profile__sidebar__fill__color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">000000</twt:profile__sidebar__fill__color>
+    <twt:profile__text__color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">000000</twt:profile__text__color>
+    <twt:profile__use__background__image rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:profile__use__background__image>
+    <twt:has__extended__profile rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:has__extended__profile>
+    <twt:default__profile rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:default__profile>
+    <twt:default__profile__image rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:default__profile__image>
+    <twt:following rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:following>
+    <twt:follow__request__sent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:follow__request__sent>
+    <twt:notifications rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:notifications>
+    <twt:translator__type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">none</twt:translator__type>
+    <rdf:type rdf:resource="http://www.twitter.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605entities">
+    <twt:url rdf:resource="http://www.twitter.org#58524605entitiesurl"/>
+    <twt:description rdf:resource="http://www.twitter.org#58524605entitiesdescription"/>
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605entitiesurl">
+    <twt:urls rdf:resource="http://www.twitter.org#58524605entitiesurlurls"/>
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605entitiesurlurls">
+    <twt:_ rdf:resource="http://www.twitter.org#58524605entitiesurlurls_"/>
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605entitiesurlurls_">
+    <twt:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://t.co/ZKRrDZYd7D</twt:url>
+    <twt:expanded__url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.linkedin.com/pub/abbie-bernstein/a/600/499</twt:expanded__url>
+    <twt:display__url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linkedin.com/pub/abbie-bern…</twt:display__url>
+    <twt:indices rdf:resource="http://www.twitter.org#58524605entitiesurlurls_indices"/>
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605entitiesurlurls_indices">
+    <twt:_ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</twt:_>
+    <twt:_ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</twt:_>
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#url"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#expanded__url"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#display__url"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#indices"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#urls"/>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605entitiesdescription">
+    <twt:urls rdf:resource="http://www.twitter.org#58524605entitiesdescriptionurls"/>
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605entitiesdescriptionurls">
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#urls"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#url"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#description"/>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605status">
+    <twt:created__at rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thu Sep 21 07:05:45 +0000 2017</twt:created__at>
+    <twt:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">910761954561499136</twt:id>
+    <twt:id__str rdf:datatype="http://www.w3.org/2001/XMLSchema#string">910761954561499136</twt:id__str>
+    <twt:text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">@GillianHorvath Happy Rosh Hashanah!</twt:text>
+    <twt:truncated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:truncated>
+    <twt:entities rdf:resource="http://www.twitter.org#58524605statusentities"/>
+    <twt:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;a href="http://twitter.com" rel="nofollow"&gt;Twitter Web Client&lt;/a&gt;</twt:source>
+    <twt:in__reply__to__status__id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">910713791712604160</twt:in__reply__to__status__id>
+    <twt:in__reply__to__status__id__str rdf:datatype="http://www.w3.org/2001/XMLSchema#string">910713791712604160</twt:in__reply__to__status__id__str>
+    <twt:in__reply__to__user__id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">339894673</twt:in__reply__to__user__id>
+    <twt:in__reply__to__user__id__str rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339894673</twt:in__reply__to__user__id__str>
+    <twt:in__reply__to__screen__name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GillianHorvath</twt:in__reply__to__screen__name>
+    <twt:is__quote__status rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:is__quote__status>
+    <twt:retweet__count rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</twt:retweet__count>
+    <twt:favorite__count rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</twt:favorite__count>
+    <twt:favorited rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:favorited>
+    <twt:retweeted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</twt:retweeted>
+    <twt:lang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</twt:lang>
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605statusentities">
+    <twt:hashtags rdf:resource="http://www.twitter.org#58524605statusentitieshashtags"/>
+    <twt:symbols rdf:resource="http://www.twitter.org#58524605statusentitiessymbols"/>
+    <twt:user__mentions rdf:resource="http://www.twitter.org#58524605statusentitiesuser__mentions"/>
+    <twt:urls rdf:resource="http://www.twitter.org#58524605statusentitiesurls"/>
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605statusentitieshashtags">
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605statusentitiessymbols">
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605statusentitiesuser__mentions">
+    <twt:_ rdf:resource="http://www.twitter.org#58524605statusentitiesuser__mentions_"/>
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605statusentitiesuser__mentions_">
+    <twt:screen__name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GillianHorvath</twt:screen__name>
+    <twt:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gillian Horvath</twt:name>
+    <twt:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">339894673</twt:id>
+    <twt:id__str rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339894673</twt:id__str>
+    <twt:indices rdf:resource="http://www.twitter.org#58524605statusentitiesuser__mentions_indices"/>
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605statusentitiesuser__mentions_indices">
+    <twt:_ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</twt:_>
+    <twt:_ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</twt:_>
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#screen__name"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#name"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#id__str"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#indices"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605statusentitiesurls">
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#hashtags"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#symbols"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#user__mentions"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#urls"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#created__at"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#id__str"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#text"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#truncated"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#entities"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#source"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#in__reply__to__status__id"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#in__reply__to__status__id__str"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#in__reply__to__user__id"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#in__reply__to__user__id__str"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#in__reply__to__screen__name"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#is__quote__status"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#retweet__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#favorite__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#favorited"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#retweeted"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#lang"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#id__str"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#name"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#screen__name"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#location"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#description"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#url"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#entities"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#protected"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#followers__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#friends__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#listed__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#created__at"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#favourites__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#utc__offset"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#time__zone"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#geo__enabled"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#verified"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#statuses__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#lang"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#status"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#contributors__enabled"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#is__translator"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#is__translation__enabled"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#profile__background__color"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#profile__background__image__url"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#profile__background__image__url__https"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#profile__background__tile"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#profile__image__url"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#profile__image__url__https"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#profile__banner__url"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#profile__link__color"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#profile__sidebar__border__color"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#profile__sidebar__fill__color"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#profile__text__color"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#profile__use__background__image"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#has__extended__profile"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#default__profile"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#default__profile__image"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#following"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#follow__request__sent"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#notifications"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#translator__type"/>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605followers__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605followers__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605followers__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605followers__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#followers__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605followers__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#followers__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605followers__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#followers__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605friends__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605friends__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605friends__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605friends__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#friends__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605friends__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#friends__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605friends__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8533333333333334</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#friends__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605listed__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605listed__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605listed__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605listed__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8666666666666667</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#listed__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605listed__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.22</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#listed__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605listed__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#listed__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605favourites__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605favourites__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605favourites__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605favourites__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#favourites__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605favourites__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#favourites__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605favourites__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#favourites__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605statuses__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605statuses__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#58524605statuses__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605statuses__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#statuses__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605statuses__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#statuses__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#58524605statuses__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.twitter.org#statuses__count"/>
+    <rdf:type rdf:resource="http://www.twitter.org#high"/>
+  </owl:Thing>
+</rdf:RDF>

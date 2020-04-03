@@ -1,0 +1,1597 @@
+<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <owl:DatatypeProperty rdf:about="http://www.fuzzy.org#truth"/>
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#type"/>
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#onProperty"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#346364">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1077</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">346364</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.5</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">654.894946</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#346364genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/tcheoA2nPATCm2vvXw2hVQoaEFD.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In a small town in Maine, seven children known as The Losers Club come face to face with life problems, bullies and a monster that takes the shape of a clown called Pennywise.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-09-05</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#346364genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#346364">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#346364vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#346364vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#346364vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#346364vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#346364vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#346364vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#346364">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#346364vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#346364vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#346364vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#346364vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#346364vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#346364vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.077</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#324852">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1836</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">324852</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.2</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Despicable Me 3</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">283.049078</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/5qcUGqWoWhEsoQwNUrtf3y3fcWn.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Despicable Me 3</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#324852genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/ftRkFtAGuHngHnLiOxktq0aCVMF.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gru and his wife Lucy must stop former '80s child star Balthazar Bratt from achieving world domination.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-15</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#324852genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10751</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#324852">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#324852vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#324852vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#324852vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#324852vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#324852vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5199999999999999</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#324852vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4800000000000001</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#324852">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#324852vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#324852vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#324852vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#324852vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#324852vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#324852vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.836</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#390043">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">664</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">390043</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.6</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Hitman's Bodyguard</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">244.44304</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/5CGjlz2vyBhW5xHW4eNOZIdgzYq.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Hitman's Bodyguard</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#390043genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/7KsqfXDECZMryX1Rv4RKsT7SIjQ.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The world's top bodyguard gets a new client, a hit man who must testify at the International Court of Justice. They must put their differences aside and work together to make it to the trial on time.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-08-16</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#390043genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#390043">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#390043vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#390043vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#390043vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#390043vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#390043vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.36000000000000015</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#390043vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6399999999999999</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#390043">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#390043vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#390043vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#390043vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#390043vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#390043vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.672</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#390043vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339403">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1669</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">339403</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.2</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baby Driver</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">232.47288</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/dN9LbVNNZFITwfaRjl4tmwGWkRg.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baby Driver</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#339403genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/goCvLSUFz0p7k8R10Hv4CVh3EQv.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339403genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#339403">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339403vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339403vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339403vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339403vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339403vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11999999999999993</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339403vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8800000000000001</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339403">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339403vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339403vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339403vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339403vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339403vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339403vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.669</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#396422">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">938</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">396422</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.4</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annabelle: Creation</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">205.817386</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/tb86j8jVCVsdZnzf8I6cIi65IeM.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annabelle: Creation</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#396422genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/o8u0NyEigCEaZHBdCYTRfXR8U4i.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Several years after the tragic death of their little girl, a dollmaker and his wife welcome a nun and several girls from a shuttered orphanage into their home, soon becoming the target of the dollmaker's possessed creation, Annabelle.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-08-03</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#396422genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#396422">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#396422vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#396422vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#396422vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#396422vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#396422vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.43999999999999984</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#396422vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5600000000000002</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#396422">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#396422vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#396422vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#396422vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#396422vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#396422vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.124</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#396422vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#343668">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">343668</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.6</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kingsman: The Golden Circle</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">181.111484</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/pKESfn2Pdy0b7drvZHQb7UzgqoY.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kingsman: The Golden Circle</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#343668genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/8eQrIUKFh1Sbpd5r3x2ZWlzqFsr.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When an attack on the Kingsman headquarters takes place and a new villain rises, Eggsy and Merlin are forced to work together with the American agency known as the Statesman to save the world.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-09-20</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#343668genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#343668">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#343668vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#343668vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#343668vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#343668vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#343668vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#343668vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9600000000000002</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#343668">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#343668vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#343668vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#343668vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#343668vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.865</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#343668vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#343668vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#374720">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2488</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">374720</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.4</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dunkirk</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160.782904</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/bOXBV303Fgkzn2K4FeKDc0O31q4.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dunkirk</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#374720genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/fudEG1VUWuOqleXv6NwCExK0VLy.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The miraculous evacuation of Allied soldiers from Belgium, Britain, Canada and France, who were cut off and surrounded by the German army from the beaches and harbor of Dunkirk, France, between May 26th and June 4th 1940, during the Battle of France in World War II.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-07-19</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#374720genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10752</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#374720">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#374720vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#374720vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#374720vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#374720vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#374720vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.03999999999999986</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#374720vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9600000000000002</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#374720">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#374720vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#374720vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#374720vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#374720vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#374720vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#374720vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8373333333333334</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#280">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4190</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">280</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.7</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminator 2: Judgment Day</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155.468429</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/2y4dmgWYRMYXdD1UyJVcn2HSd1D.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminator 2: Judgment Day</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#280genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/d9AqtruwS8nljKjL5aYzM42hQJr.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1991-07-01</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#280genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">878</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#280">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#280vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#280vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#280vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#280vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#280vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#280vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9199999999999999</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#280">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#280vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#280vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#280vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#280vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#280vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#280vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.27</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#78">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3516</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.9</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blade Runner</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151.271056</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/p64TtbZGCElxQHpAMWmDHkWJlH2.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blade Runner</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#78genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/k36huckDH0v3LP1zo7maFt3mJC0.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1982-06-25</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#78genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">878</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#78">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#78vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#78vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#78vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#78vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#78vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#78vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8399999999999999</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#78">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#78vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#78vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#78vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#78vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#78vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#78vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.49466666666666664</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#381283">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381283</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.3</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mother!</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127.233359</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/qmi2dsuoyzZdJ0WFZYQazbX8ILj.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mother!</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#381283genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/rTi26DGOfFRAp7NMwzlvhO9UMm1.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A couple's relationship is tested when uninvited guests arrive at their home, disrupting their tranquil existence.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-09-13</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#381283genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#381283">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#381283vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#381283vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#381283vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#381283vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#381283vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4800000000000001</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#381283vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5199999999999999</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#381283">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#381283vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#381283vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#381283vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#381283vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.495</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#381283vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#381283vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339404">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">339404</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Layover</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122.308978</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/kb9osnqanXRpkpm1bnSqAhKoq5T.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Layover</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#339404genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/ibianpvL865w7rBPAg3sPlEXUyh.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When their plane is rerouted due to a hurricane warning, two single female best friends find themselves competing for the same guy during an extended layover in St. Louis.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-09-01</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339404genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#339404">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339404vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339404vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339404vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339404vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.08000000000000007</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339404vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9199999999999999</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339404vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339404">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339404vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339404vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339404vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339404vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339404vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339404vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339692">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">265</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">339692</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.9</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shot Caller</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107.087122</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/qLmLz2wtyYvmW8Ult3l2ngOnW8v.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shot Caller</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#339692genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/lLj0Mm99G5EFDPOvIDpr222AJ1a.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A newly-released prison gangster is forced by the leaders of his gang to orchestrate a major crime with a brutal rival gang on the streets of Southern California.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-07-13</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339692genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#339692">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339692vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339692vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339692vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339692vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339692vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.23999999999999985</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339692vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7600000000000001</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339692">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339692vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339692vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339692vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339692vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.175</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339692vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339692vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#281338">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1499</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">281338</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.7</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">War for the Planet of the Apes</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105.68313</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/y52mjaCLoJJzxfcDDlksKDngiDx.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">War for the Planet of the Apes</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#281338genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/ulMscezy9YX0bhknvJbZoUgQxO5.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caesar and his apes are forced into a deadly conflict with an army of humans led by a ruthless Colonel. After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind. As the journey finally brings them face to face, Caesar and the Colonel are pitted against each other in an epic battle that will determine the fate of both their species and the future of the planet.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-07-11</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#281338genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">878</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10752</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#281338">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#281338vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#281338vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#281338vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#281338vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#281338vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.31999999999999995</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#281338vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.68</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#281338">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#281338vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#281338vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#281338vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#281338vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#281338vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#281338vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.499</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#415842">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">415842</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Assassin</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100.958334</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/o40BAqdTQHiN3cUfpgieDUYI71z.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Assassin</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#415842genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/puKZWmBIpuEMwGCn2hZkublG1rO.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Following the murder of his fiancée, Mitch Rapp trains under the instruction of Cold War veteran Stan Hurley. The pair then is enlisted to investigate a wave of apparently random attacks on military and civilian targets.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-09-14</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#415842genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#415842">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#415842vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#415842vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#415842vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#415842vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#415842vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#415842vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#415842">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#415842vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#415842vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#415842vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#415842vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.87</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#415842vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#415842vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#342473">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">342473</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.1</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ballerina</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97.309473</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/60ZhK1FstSkC9Ms8lRWaTPm55kD.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ballerina</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#342473genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/yfRWtsCVDiYnfrZ8ndL3G2WMHid.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Set in 1879 Paris. An orphan girl dreams of becoming a ballerina and flees her rural Brittany for Paris, where she passes for someone else and accedes to the position of pupil at the Grand Opera house.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-12-14</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#342473genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10751</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#342473">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#342473vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#342473vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#342473vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#342473vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#342473vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.16000000000000014</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#342473vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8399999999999999</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#342473">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#342473vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#342473vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#342473vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#342473vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#342473vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.46</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#342473vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339988">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">912</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">339988</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.4</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Circle</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96.11652</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/bQVqd5rWrx5GbXhJNuvKy4Viz6j.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Circle</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#339988genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/4b02JgxFlKTk7jRpOSAhziQbSA.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A young tech worker takes a job at a powerful Internet corporation, quickly rises up the company's ranks, and soon finds herself in a perilous situation concerning privacy, surveillance and freedom. She comes to learn that her decisions and actions will determine the future of humanity.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-04-27</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339988genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">878</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#339988">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339988vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339988vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339988vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339988vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339988vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8399999999999999</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339988vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.16000000000000014</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339988">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339988vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339988vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#339988vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339988vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339988vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.176</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#339988vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#399170">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">399170</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.4</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logan Lucky</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88.437726</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/ksx6hvl5j04qgGeW0Y1ajkXx5KB.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logan Lucky</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#399170genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/vzu7tNNF5jT6u2AScPwi6qF7T75.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trying to reverse a family curse, brothers Jimmy and Clyde Logan set out to execute an elaborate robbery during the legendary Coca-Cola 600 race at the Charlotte Motor Speedway.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-08-17</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#399170genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#399170">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#399170vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#399170vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#399170vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#399170vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#399170vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.43999999999999984</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#399170vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5600000000000002</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#399170">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#399170vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#399170vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#399170vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#399170vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.92</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#399170vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#399170vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#406990">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">447</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">406990</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.4</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What Happened to Monday</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82.475201</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/xfFoewesyuWRVh4qBbXbMhH6gm7.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What Happened to Monday</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#406990genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/wwZ2uXOwPkMrZSeFn9s7WFXEMg6.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In a world where families are limited to one child due to overpopulation, a set of identical septuplets must avoid being put to a long sleep by the government and dangerous infighting while investigating the disappearance of one of their own.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-08-18</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#406990genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">878</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#406990">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#406990vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#406990vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#406990vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#406990vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#406990vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.03999999999999986</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#406990vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9600000000000002</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#406990">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#406990vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#406990vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#406990vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#406990vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#406990vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.735</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#406990vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#427900">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">427900</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.1</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home Again</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82.401081</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/z5CtCxpblBke2G8c7CMkstedMgY.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home Again</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#427900genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/pxpEFY66yYr5bA1N4PCm5b4uz40.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Life for a single mom in Los Angeles takes an unexpected turn when she allows three young guys to move in with her.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-09-07</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#427900genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#427900">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#427900vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#427900vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#427900vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#427900vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.36000000000000015</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#427900vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6399999999999999</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#427900vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#427900">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#427900vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#427900vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#427900vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#427900vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.24</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#427900vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#427900vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#395814">
+    <tmdb:vote__count xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</tmdb:vote__count>
+    <tmdb:id xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395814</tmdb:id>
+    <tmdb:video xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:video>
+    <tmdb:vote__average xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.2</tmdb:vote__average>
+    <tmdb:title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rememory</tmdb:title>
+    <tmdb:popularity xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79.828202</tmdb:popularity>
+    <tmdb:poster__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/sGQ4kix7bIT35ePpJzA2rNNaxPY.jpg</tmdb:poster__path>
+    <tmdb:original__language xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</tmdb:original__language>
+    <tmdb:original__title xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rememory</tmdb:original__title>
+    <tmdb:genre__ids xmlns:tmdb="http://www.tmdb.org#" rdf:resource="http://www.tmdb.org#395814genre__ids"/>
+    <tmdb:backdrop__path xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/3vSrGsnMjzAycIU80udh7NFAJkP.jpg</tmdb:backdrop__path>
+    <tmdb:adult xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tmdb:adult>
+    <tmdb:overview xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The widow of a wise professor stumbles upon one of his inventions that's able to record and play a person's memory.</tmdb:overview>
+    <tmdb:release__date xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-09-08</tmdb:release__date>
+    <rdf:type rdf:resource="http://www.tmdb.org#movie"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#395814genre__ids">
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">878</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</tmdb:_>
+    <tmdb:_ xmlns:tmdb="http://www.tmdb.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9648</tmdb:_>
+    <rdf:type rdf:resource="http://www.tmdb.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__count"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#video"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#vote__average"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#title"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#popularity"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#poster__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__language"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#original__title"/>
+  <owl:ObjectProperty rdf:about="http://www.tmdb.org#genre__ids"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#backdrop__path"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#adult"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#overview"/>
+  <owl:DatatypeProperty rdf:about="http://www.tmdb.org#release__date"/>
+  <owl:Thing rdf:about="http://www.tmdb.org#395814">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#395814vote__averagelow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#395814vote__averagemedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#395814vote__averagehigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#395814vote__averagelow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#395814vote__averagemedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5199999999999999</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#395814vote__averagehigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4800000000000001</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__average"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#395814">
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#395814vote__countlow"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#395814vote__countmedium"/>
+    <f:type xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#395814vote__counthigh"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#395814vote__countlow">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.41</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#low"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#395814vote__countmedium">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#medium"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.tmdb.org#395814vote__counthigh">
+    <f:truth xmlns:f="http://www.fuzzy.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f:truth>
+    <f:onProperty xmlns:f="http://www.fuzzy.org#" rdf:resource="http://www.tmdb.org#vote__count"/>
+    <rdf:type rdf:resource="http://www.tmdb.org#high"/>
+  </owl:Thing>
+</rdf:RDF>

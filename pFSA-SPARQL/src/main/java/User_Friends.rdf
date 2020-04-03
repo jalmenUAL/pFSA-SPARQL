@@ -1,0 +1,2365 @@
+<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <owl:DatatypeProperty rdf:about="http://www.fuzzy.org#truth"/>
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#type"/>
+  <owl:ObjectProperty rdf:about="http://www.fuzzy.org#onProperty"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#371896">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">371896</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mark</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whaite</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#371896photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#371896tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#371896lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London, UK</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#371896contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#371896photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/1154Y5PB1RXWRHZX.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#371896tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#371896lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#371896listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#371896listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#371896listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#371896listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#371896listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#371896listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#371896contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#371896"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1128570">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1128570</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guilliana</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castle</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1128570photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1128570tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1128570lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vauxhall, Greater London</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1128570contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1128570photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/BL1LPKEHJQJBLNAA.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1128570tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1128570lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1128570listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1128570listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1128570listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1128570listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1128570listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1128570listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1128570contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1128570"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1191401">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1191401</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kat</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharp</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1191401photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1191401tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1191401lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eastleigh, Hampshire</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1191401contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1191401photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/WSO4YTYANADQVKQU.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1191401tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1191401lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1191401listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1191401listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1191401listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1191401listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1191401listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1191401listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1191401contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1191401"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#37634346">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37634346</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jimmy</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kirikos</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#37634346photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#37634346tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#37634346lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South Yorkshire</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#37634346contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#37634346photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/XX3R4EVTOSH42V2B.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#37634346tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#37634346lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#37634346listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#37634346listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#37634346listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#37634346listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#37634346listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#37634346listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#37634346contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#37634346"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#282975">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">282975</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Claudia</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urquiola</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#282975photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#282975tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#282975lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#282975contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#282975photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/GDJD2UM52JILQXHJ.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#282975tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#282975lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#282975listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#282975listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#282975listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#282975listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#282975listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#282975listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#282975contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#282975"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#4556277">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4556277</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meg</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hall</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4556277photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4556277tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4556277lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4556277contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#4556277photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/5E4HX3Y3M0C5K1MA.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#4556277tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#4556277lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4556277listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#4556277listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4556277listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#4556277listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4556277listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#4556277listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#4556277contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4556277"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#521297">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">521297</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Craig Le Grice</fsq:firstName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#521297photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#521297tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#521297lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategy, innovation, tech, data, fintech, retail, marketing, growth, change. Travel, food, wine, art, design, airports, hotels, spin, gym.</fsq:bio>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#521297contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#521297photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/521297-RTLXHI2IYEUOMONE.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#521297tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#521297lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#521297listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#521297listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#521297listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#521297listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#521297listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#521297listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#521297contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#521297"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#57677913">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57677913</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fawwaz</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Siddiqi</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#57677913photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#57677913tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#57677913lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London, United Kingdom</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#57677913contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#57677913photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/XPX4SDTN11A4K1PD.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#57677913tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#57677913lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#57677913listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#57677913listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#57677913listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#57677913listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#57677913listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#57677913listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#57677913contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#57677913"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#2191464">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2191464</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sophie</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paluch</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2191464photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2191464tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2191464lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London, UK</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2191464contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#2191464photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/2191464_tVZZeSbb_KINYfvTBrId9MHYrT-hqTaPbIOdmhbgzLyo9mum7Wc3iFzE0jPM8GTZgRT8B_Igi.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#2191464tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#2191464lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2191464listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#2191464listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2191464listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#2191464listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2191464listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#2191464listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#2191464contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2191464"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#91856765">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91856765</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jenny</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rich</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#91856765photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#91856765tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#91856765lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foxfire, NC</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#91856765contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#91856765photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/91856765-PVTXUSV04IFASRZN.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#91856765tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#91856765lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#91856765listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#91856765listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#91856765listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#91856765listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#91856765listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#91856765listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#91856765contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#91856765"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#3062973">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3062973</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaun @ TheTableCafe</fsq:firstName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#3062973photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#3062973tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#3062973lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London, UK</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chef / Patron of The Table Cafe. All views my own...</fsq:bio>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#3062973contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#3062973photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/3062973-NCN0X20RJ5O0HTSN</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#3062973tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#3062973lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#3062973listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#3062973listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#3062973listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#3062973listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#3062973listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#3062973listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#3062973contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#3062973"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#79233">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">79233</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayel</fsq:firstName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#79233photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#79233tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#79233lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glomad</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glomad, Entrepreneur</fsq:bio>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#79233contact"/>
+    <fsq:superuser xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:superuser>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#79233photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/PPGMVXSG3LDETTGU.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#79233tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#79233lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#79233listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#79233listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#79233listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#79233listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#79233listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#79233listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#79233contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#superuser"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#79233"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#55764">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55764</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redfern</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#55764photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#55764tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#55764lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walthamstow, Greater London</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#55764contact"/>
+    <fsq:superuser xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:superuser>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#55764photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/55764-OW0PHLB5Z4VBO3MY.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#55764tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">159</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#55764lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#55764listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#55764listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#55764listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#55764listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#55764listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#55764listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#55764contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#superuser"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#55764"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#855848">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">855848</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">claire</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cessford</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#855848photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#855848tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#855848lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London, UK</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#855848contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#855848photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/NCBAITAFWNHD4DS3.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#855848tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#855848lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#855848listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#855848listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#855848listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#855848listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#855848listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#855848listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#855848contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#855848"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#41330026">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41330026</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wes</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tastard</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#41330026photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#41330026tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#41330026lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dalston</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person on earth</fsq:bio>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#41330026contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#41330026photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/ZRIJL4CVI151KO1G.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#41330026tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#41330026lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#41330026listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#41330026listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#41330026listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#41330026listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#41330026listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#41330026listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#41330026contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#41330026"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#45481102">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45481102</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elmes</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#45481102photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#45481102tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#45481102lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stratford, Newham</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#45481102contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#45481102photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/ZJAGZ0LZN3R3TV5F.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#45481102tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#45481102lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#45481102listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#45481102listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#45481102listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#45481102listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#45481102listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#45481102listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#45481102contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#45481102"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#4372132">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4372132</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spina Bifida * Hydrocephalus * Information * Networking * Equality</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- Charity No': 249338</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4372132photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4372132tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4372132lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peterborough, UK</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe’s largest organisation dedicated 2 support individuals/families facing challenges arising from #SpinaBifida &amp; #Hydrocephalus. Formerly known as ASBAH.</fsq:bio>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4372132contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#4372132photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/BJXWWRXYI3KEC4MY.gif</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#4372132tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#4372132lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4372132listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#4372132listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4372132listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#4372132listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4372132listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#4372132listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#4372132contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#4372132"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#6863066">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6863066</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canteen</fsq:firstName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">none</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#6863066photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#6863066tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#6863066lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London, UK</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honest seasonal Great British Food, nationally sourced, skilfully prepared and reasonably priced. Visit us at Canary Wharf, Royal Festival Hall and Spitalfields</fsq:bio>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#6863066contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#6863066photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/GGJMOLKBSRYFIAE4.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#6863066tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#6863066lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#6863066listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#6863066listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#6863066listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#6863066listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#6863066listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#6863066listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#6863066contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#6863066"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#496604">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">496604</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sonantics</fsq:firstName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#496604photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#496604tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#496604lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London, UK</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#496604contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#496604photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/JPGRB3BT2LMRHXAD.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#496604tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#496604lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#496604listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#496604listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#496604listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#496604listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#496604listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#496604listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#496604contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#496604"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#24186573">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24186573</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lilian</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spiteri</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24186573photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24186573tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24186573lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buckinghamshire</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24186573contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#24186573photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/V4VSYDXFRESOU4P0.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#24186573tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#24186573lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24186573listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#24186573listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24186573listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#24186573listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24186573listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#24186573listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#24186573contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24186573"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#2733711">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2733711</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GinMonkey</fsq:firstName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2733711photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2733711tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2733711lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London, UK</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2733711contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#2733711photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/U4J0EHCVBW5UQMRL.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#2733711tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#2733711lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2733711listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#2733711listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2733711listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#2733711listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2733711listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#2733711listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#2733711contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2733711"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#54141251">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">54141251</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dominique</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rouiller</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#54141251photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#54141251tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#54141251lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London, ENG</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#54141251contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#54141251photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/HRDFFDI52JGA1WQY.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#54141251tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#54141251lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#54141251listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#54141251listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#54141251listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#54141251listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#54141251listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#54141251listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#54141251contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#54141251"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#59281">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">59281</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renette</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Youssef</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#59281photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#59281tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#59281lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco, CA</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#59281contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#59281photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/3IOCL11K2MWBZUER.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#59281tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#59281lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#59281listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#59281listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#59281listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#59281listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#59281listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#59281listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#59281contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#59281"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1615267">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1615267</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlotte</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jenkins</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1615267photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1615267tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1615267lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coffee lover, discerning booze drinker, carnivore</fsq:bio>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1615267contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1615267photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/1615267-PFBLKGH5UHRUUXY5.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1615267tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1615267lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1615267listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1615267listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1615267listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1615267listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1615267listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1615267listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1615267contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1615267"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#13338829">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13338829</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leo</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fedorcio</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#13338829photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#13338829tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#13338829lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#13338829contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#13338829photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/13338829-G1OXIE3QXCB5BYEM.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#13338829tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#13338829lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#13338829listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#13338829listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#13338829listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#13338829listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#13338829listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#13338829listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#13338829contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#13338829"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#11834047">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11834047</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tom</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aikens</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#11834047photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#11834047tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#11834047lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London, UK</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#11834047contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#11834047photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/1YRACMW1AL3WKG4D.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#11834047tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#11834047lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#11834047listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#11834047listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#11834047listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#11834047listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#11834047listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#11834047listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#11834047contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#11834047"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#19184507">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19184507</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bachir</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Habib</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#19184507photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#19184507tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#19184507lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">بيروت, Lebanon</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#19184507contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#19184507photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/4NYIYEHSRRGQ2NGU.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#19184507tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#19184507lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#19184507listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#19184507listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#19184507listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#19184507listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#19184507listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#19184507listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#19184507contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#19184507"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#24230067">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24230067</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mark</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Farrugia</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24230067photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24230067tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24230067lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paola, Malta</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24230067contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#24230067photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/IVXVFPHLVCQ3PYA2.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#24230067tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#24230067lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24230067listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#24230067listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24230067listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#24230067listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24230067listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#24230067listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#24230067contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#24230067"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#42743680">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42743680</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Effie</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zorfidi</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#42743680photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#42743680tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#42743680lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Design freak back in the City after 2 years of living in Athens, GR. University of the Arts London alumni and proud chef at Cookisto!</fsq:bio>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#42743680contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#42743680photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/TWCX5OE22G5N3TFK.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#42743680tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#42743680lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#42743680listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#42743680listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#42743680listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#42743680listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#42743680listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#42743680listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#42743680contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#42743680"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#464431">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">464431</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Royal Garden Hotel</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">none</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#464431photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#464431tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#464431lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kensington, United Kingdom</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Largest independently owned 5 Star Hotel in London with stunning views, 394 bedrooms, a Spa, 2 Restaurants including Min Jiang, 3 bars and 10 Conference suites.</fsq:bio>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#464431contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#464431photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/4OTTX44BTCUXQ5M3.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#464431tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#464431lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#464431listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#464431listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#464431listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#464431listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#464431listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#464431listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#464431contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#464431"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1971434">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1971434</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Richard</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stroud</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1971434photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1971434tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1971434lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UK</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1971434contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1971434photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/HPCYQVJFRBXG5STD.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1971434tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1971434lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1971434listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1971434listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1971434listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1971434listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1971434listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1971434listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1971434contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1971434"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#40368589">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40368589</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gagenmeister</fsq:firstName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#40368589photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#40368589tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#40368589lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scrabble, the arts, haribo. Like places that serve 70s and 80s based fluids</fsq:bio>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#40368589contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#40368589photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/N1DVCWZFRN0RCUPI.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#40368589tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#40368589lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#40368589listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#40368589listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#40368589listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#40368589listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#40368589listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#40368589listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#40368589contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#40368589"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#43690873">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43690873</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BumpkinLondon</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-London</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#43690873photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#43690873tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#43690873lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bumpkin is all about authentic, seasonal British food and we have scoured the corners of Britain to bring the finest produce to our kitchens.</fsq:bio>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#43690873contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#43690873photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/1N4XYJA5KAPECRHJ.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#43690873tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#43690873lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#43690873listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#43690873listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#43690873listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#43690873listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#43690873listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#43690873listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#43690873contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#43690873"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1725370">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1725370</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ross</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gilman</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1725370photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1725370tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1725370lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London, UK</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1725370contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1725370photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/YL5S5C1MBIO10RSH.png</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1725370tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1725370lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1725370listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1725370listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1725370listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1725370listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1725370listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#1725370listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#1725370contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#1725370"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#2266412">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2266412</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tom</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barnett</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2266412photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2266412tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2266412lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London</fsq:homeCity>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2266412contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#2266412photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/2266412-TZDDZM1U2O1ZB32T.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#2266412tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#2266412lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2266412listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#2266412listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2266412listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#2266412listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2266412listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#2266412listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#2266412contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#2266412"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#51999012">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51999012</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camilla</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clarke</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#51999012photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#51999012tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#51999012lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#51999012contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#51999012photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/blank_girl.png</fsq:suffix>
+    <fsq:default xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</fsq:default>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#default"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#51999012tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#51999012lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#51999012listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#51999012listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#51999012listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#51999012listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#51999012listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#51999012listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#51999012contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#51999012"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#80537461">
+    <fsq:id xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80537461</fsq:id>
+    <fsq:firstName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gloria</fsq:firstName>
+    <fsq:lastName xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hester</fsq:lastName>
+    <fsq:gender xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</fsq:gender>
+    <fsq:photo xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#80537461photo"/>
+    <fsq:tips xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#80537461tips"/>
+    <fsq:lists xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#80537461lists"/>
+    <fsq:homeCity xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:bio xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+    <fsq:contact xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#80537461contact"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#80537461photo">
+    <fsq:prefix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://igx.4sqi.net/img/user/</fsq:prefix>
+    <fsq:suffix xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/80537461-0TZFIJUOHD2QUMGJ.jpg</fsq:suffix>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#prefix"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#suffix"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#80537461tips">
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</fsq:count>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#80537461lists">
+    <fsq:groups xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#80537461listsgroups"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#80537461listsgroups">
+    <fsq:_ xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#80537461listsgroups_"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#80537461listsgroups_">
+    <fsq:type xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created</fsq:type>
+    <fsq:count xmlns:fsq="http://www.foursquare.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</fsq:count>
+    <fsq:items xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#80537461listsgroups_items"/>
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.foursquare.org#80537461listsgroups_items">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#type"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#count"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#items"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#_"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#groups"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#80537461contact">
+    <rdf:type rdf:resource="http://www.foursquare.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#id"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#firstName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#lastName"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#gender"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#photo"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#tips"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#lists"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#homeCity"/>
+  <owl:DatatypeProperty rdf:about="http://www.foursquare.org#bio"/>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#contact"/>
+  <owl:Thing rdf:about="http://www.foursquare.org#53989226">
+    <fsq:friends xmlns:fsq="http://www.foursquare.org#" rdf:resource="http://www.foursquare.org#80537461"/>
+  </owl:Thing>
+  <owl:ObjectProperty rdf:about="http://www.foursquare.org#friends"/>
+</rdf:RDF>

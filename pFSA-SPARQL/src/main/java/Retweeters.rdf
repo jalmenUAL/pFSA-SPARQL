@@ -1,0 +1,200 @@
+<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <owl:Thing rdf:about="http://www.twitter.org#910734614829965312">
+    <twt:tweetID xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">910734614829965312</twt:tweetID>
+    <twt:previous__cursor__str xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</twt:previous__cursor__str>
+    <twt:previous__cursor xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</twt:previous__cursor>
+    <twt:next__cursor__str xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</twt:next__cursor__str>
+    <twt:next__cursor xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</twt:next__cursor>
+    <twt:ids xmlns:twt="http://www.twitter.org#" rdf:resource="http://www.twitter.org#910734614829965312ids"/>
+    <rdf:type rdf:resource="http://www.twitter.org#user"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.twitter.org#910734614829965312ids">
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">107723128</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2279110189</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2502259507</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">845720750174687232</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">105898313</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2965608929</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">284205704</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94847676</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">136707120</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34937229</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33560144</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2595380571</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">867442975718207493</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">427402721</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">134873861</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1363349478</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">264620131</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192932381</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">357222990</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">248078279</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61015710</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">78878791</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">103542538</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32653897</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2985132439</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1170215246</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">817214181132959744</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">827235047929311232</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1979589252</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1367551590</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49054840</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22516768</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">703776235130904576</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">823485329613225984</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">480479178</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">490626526</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93782963</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">908085252609986561</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">860248372409757697</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22389972</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">810008711762743297</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">942447002</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4818398945</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19164366</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1247716405</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3189151946</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17670549</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">822818070938918913</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19322067</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">778754519127564288</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1693080319</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1436066335</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">765914954</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">976882801</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93305727</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">397090369</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4688207053</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">546321490</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">415148702</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">598489127</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">408177388</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">910467725100597248</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">370907329</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">600226083</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67536229</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">153862911</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">178053763</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">872907204512186368</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11857382</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">124562464</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">250858116</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40650220</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">734735805902508032</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25254874</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">561775820</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">755994525445738498</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1732765940</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">601466914</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">886330483835097088</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2400694814</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">567287583</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36494761</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">131818826</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3064994776</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">384044288</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">801559167286865920</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2913094875</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26251441</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500116134</twt:_>
+    <twt:_ xmlns:twt="http://www.twitter.org#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2909766013</twt:_>
+    <rdf:type rdf:resource="http://www.twitter.org#null"/>
+  </owl:Thing>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#_"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#tweetID"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#previous__cursor__str"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#previous__cursor"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#next__cursor__str"/>
+  <owl:DatatypeProperty rdf:about="http://www.twitter.org#next__cursor"/>
+  <owl:ObjectProperty rdf:about="http://www.twitter.org#ids"/>
+</rdf:RDF>
